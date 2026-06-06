@@ -1,0 +1,22 @@
+body {
+  font-family: "Open Sans";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  color: var(--color-black);
+  background-color: var(--color-white);
+}
+
+a,
+button,
+input,
+textarea,
+svg * {
+  transition-duration: 0.2s;
+}
+
+.container {
+  max-width: 1182px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
