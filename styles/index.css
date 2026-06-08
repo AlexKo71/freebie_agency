@@ -2,3 +2,4 @@
 @import "/styles/normalize.css";
 @import "/styles/variables.css";
 @import "/styles/global.css";
+@import "/styles/components/header.css";
