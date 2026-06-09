@@ -1,0 +1,78 @@
+.section__one {
+  width: 100%;
+  min-height: 559px;
+  margin-bottom: 117px;
+}
+
+.we-are__block {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.we-are__block-title {
+  position: absolute;
+  top: 77px;
+  left: 0;
+  z-index: 2;
+}
+.we-are__title {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 36px;
+  letter-spacing: 2.3px;
+  margin-bottom: 4px;
+}
+.we-are__subtitle {
+  font-size: 42px;
+  font-weight: 300;
+  letter-spacing: 2.69px;
+  margin-bottom: 32px;
+}
+.we-are__title-text {
+  max-width: 271px;
+  font-size: 15px;
+  position: relative;
+  padding-left: 30px;
+  margin-left: 20px;
+}
+
+.we-are__title-text::before {
+  content: "";
+  top: 12px;
+  left: 0;
+  position: absolute;
+  width: 20px;
+  height: 2px;
+  background-color: #252525;
+}
+.we-are__block-second {
+  position: absolute;
+  top: 0;
+  left: 193px;
+  z-index: 1;
+}
+
+.we-are__block-third {
+  position: absolute;
+  top: 62px;
+  left: 403px;
+  width: 309px;
+  height: 418px;
+  background-color: var(--color-green);
+  opacity: 80%;
+  z-index: -1;
+}
+.we-are__block-fourth {
+  position: absolute;
+  top: 168px;
+  left: 613px;
+  z-index: -2;
+}
+
+.we-are__block-fifth {
+  position: absolute;
+  top: 404px;
+}
