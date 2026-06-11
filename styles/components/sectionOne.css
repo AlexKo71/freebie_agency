@@ -37,17 +37,17 @@
   position: relative;
   padding-left: 30px;
   margin-left: 20px;
+  &::before {
+    content: "";
+    top: 12px;
+    left: 0;
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: #252525;
+  }
 }
 
-.we-are__title-text::before {
-  content: "";
-  top: 12px;
-  left: 0;
-  position: absolute;
-  width: 20px;
-  height: 2px;
-  background-color: #252525;
-}
 .we-are__block-second {
   position: absolute;
   top: 0;

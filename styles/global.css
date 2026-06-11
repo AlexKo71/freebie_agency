@@ -21,3 +21,22 @@ svg * {
   padding: 0 10px;
   margin: 0 auto;
 }
+
+.section-title {
+  font-family: "Oswald", sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  text-transform: capitalize;
+  line-height: 1.48;
+  position: relative;
+  margin-bottom: 85px;
+  &::before {
+    content: "";
+    position: absolute;
+    width: 45px;
+    height: 2px;
+    top: 78px;
+    left: 0;
+    background-color: black;
+  }
+}
